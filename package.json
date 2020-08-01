@@ -2,7 +2,7 @@
   "name": "be-interative-map",
   "version": "1.0.0",
   "description": "A backend server for map-markers",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "setup-dbs": "psql -f ./db/setup.sql",
     "seed": "knex seed:run",
@@ -24,6 +24,7 @@
     "type": "git",
     "url": "git+https://github.com/Brork/be-interactive-map.git"
   },
+  "keywords": [],
   "author": "James",
   "license": "ISC",
   "bugs": {
