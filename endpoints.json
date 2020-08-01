@@ -1,0 +1,19 @@
+{
+  "GET /api": {
+    "description": "serves up a json representation of all the available endpoints of the api"
+  },
+  "GET /api/markers": {
+    "description": "serves an array of all markers",
+    "queries": [],
+    "exampleResponse": {
+      "topics": [
+        {
+          "x": 100,
+          "y": 100,
+          "content": "a couple of words",
+          "unix": 1596024538866
+        }
+      ]
+    }
+  }
+}

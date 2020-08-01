@@ -1,0 +1,1 @@
+exports.markerData = require("./markers");
